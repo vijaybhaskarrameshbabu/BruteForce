@@ -1,0 +1,9 @@
+1. Install ssl library
+
+        apt-get install libssl-dev
+
+
+2. connect while compiling
+        gcc -o program program.c -lcrypto -openssl  
+                     (or)
+        gcc -o program program.c -lcrypto -lssl       //replace program by the name of C file
