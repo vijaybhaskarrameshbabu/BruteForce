@@ -7,3 +7,7 @@ There is a password system you want to break into. The system accepts hashes of 
 Part II: Dictionary attacks (prog.c and pass.txt)
 
 This C program will use a dictionary to generate passwords and hashes. Here, I have used a small password dictionary. (A much larger dictionary can be used).The program will also display the entropy for each password based on the number of characters
+
+Part III
+
+This is just an extension of part II, where in the program generates SHA1 Hashes from the password dictionary along with the entropy.
