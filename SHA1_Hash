@@ -23,11 +23,10 @@ int main()
 	for(i = 0; i <=SHA_DIGEST_LENGTH; i++)
 	{
 	printf("%02x",result[i]); //print the hash value
-	
 	}
 	entropy= ( log(61) / log(2) ) * (strlen(c)-1);
 	printf("\t%lf\n",entropy); // print the entropy
 	printf("\n");
-	}
+      }
     }
 }
